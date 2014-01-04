@@ -9,6 +9,13 @@ apt-get install -y libapache2-mod-php5
 
 service apache2 restart
 
+# Curl
+apt-get install -y curl
+
+# Composer
+curl -sS https://getcomposer.org/installer | php
+mv composer.phar /usr/local/bin/composer
+
 rm -rf /var/www
-ln -fs /vagrant/sites /var/www
+ln -fs /vagrant/www /var/www
 
