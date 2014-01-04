@@ -2,6 +2,7 @@ Here a squeleton of a precise32 box with apache2 and php5 with a sites sub direc
 -------------
 
 Clone this project
+git clone https://github.com/stephanpaquet/vagrant-apache-php-box.git
 
 * mv to vagrant-apache-php-box directory
 * vagrant up
