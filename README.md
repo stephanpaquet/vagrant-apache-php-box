@@ -1,4 +1,4 @@
-Here a squeleton of a precise32 box with apache2 and php5 with a sites sub directory with a simple index.php in it
+Here a squeleton of a precise32 box with apache2 and php5 with a www sub directory with a simple index.php in it
 -------------
 
 We will need to install these tow depencies
